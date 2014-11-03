@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>Cetus/Cetus.qml</file>
+        <file>Cetus/description.ini</file>
+        <file>Cetus/ApplicationMenuBar.qml</file>
+        <file>Cetus/ApplicationStatusBar.qml</file>
+        <file>Cetus/ApplicationToolBar.qml</file>
+        <file>Cetus/ConfigurationPanel.qml</file>
+        <file>Cetus/DisplayPanel.qml</file>
+        <file>Cetus/ExtensionTabs.qml</file>
+        <file>Cetus/ManualTab.qml</file>
+        <file>Cetus/MdiTab.qml</file>
+        <file>Cetus/ToggleSettingAction.qml</file>
+        <file>Cetus/PrinterTab.qml</file>
+        <file>Cetus/ErrorTab.qml</file>
+        <file>Cetus/AboutDialog.qml</file>
+    </qresource>
+</RCC>
