@@ -1,3 +1,5 @@
+TARGET = cetus
+
 TEMPLATE = app
 
 QT += qml quick widgets
