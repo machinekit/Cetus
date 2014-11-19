@@ -15,5 +15,6 @@
         <file>Cetus/PrinterTab.qml</file>
         <file>Cetus/ErrorTab.qml</file>
         <file>Cetus/AboutDialog.qml</file>
+        <file>Cetus/ApplicationToolBarMobile.qml</file>
     </qresource>
 </RCC>

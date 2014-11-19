@@ -18,12 +18,21 @@ ServiceWindow {
     title: qsTr("Cetus")
 
     statusBar:applicationStatusBar
-    toolBar: applicationToolBar
+    toolBar: applicationToolBarMobile.active ? applicationToolBarMobile : applicationToolBar
     menuBar: applicationMenuBar
 
     ApplicationStatusBar { id: applicationStatusBar }
-    ApplicationToolBar { id: applicationToolBar }
     ApplicationMenuBar { id: applicationMenuBar }
+    Loader {
+        id: applicationToolBar
+        source: "ApplicationToolBar.qml"
+        active: !applicationToolBarMobile.active
+    }
+    Loader {
+        id: applicationToolBarMobile
+        source: "ApplicationToolBarMobile.qml"
+        active: (Qt.platform.os == "android")
+    }
 
     ApplicationCore {
         id: applicationCore

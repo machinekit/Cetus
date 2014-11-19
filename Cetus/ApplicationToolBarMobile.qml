@@ -7,57 +7,75 @@ import Machinekit.PathView 1.0
 import Machinekit.Controls 1.0
 
 ToolBar {
-    implicitHeight: rowLayout.implicitHeight
+    implicitHeight: Screen.pixelDensity * 7.5
     RowLayout {
-        id: rowLayout
-        anchors.left: parent.left
-        ToolButton {
+        anchors.fill: parent
+        TouchButton {
+            Layout.fillHeight: true
             action: EstopAction { }
         }
-        ToolButton {
+        TouchButton {
+            Layout.fillHeight: true
             action: PowerAction { }
         }
-        ToolButton {
+        TouchButton {
+            Layout.fillHeight: true
             action: OpenAction { fileDialog: applicationFileDialog }
         }
-        ToolButton {
+        TouchButton {
+            Layout.fillHeight: true
             action: ReopenAction { }
         }
-        ToolButton {
+        TouchButton {
+            Layout.fillHeight: true
             action: RunProgramAction { }
         }
-        ToolButton {
+        TouchButton {
+            Layout.fillHeight: true
             action: StepProgramAction { }
         }
-        ToolButton {
+        TouchButton {
+            Layout.fillHeight: true
             action: PauseResumeProgramAction { }
         }
-        ToolButton {
+        TouchButton {
+            Layout.fillHeight: true
             action: StopProgramAction { }
         }
-        ToolButton {
+        TouchButton {
+            Layout.fillHeight: true
             action: ZoomOutAction { view: pathView3D }
         }
-        ToolButton {
+        TouchButton {
+            Layout.fillHeight: true
             action: ZoomInAction { view: pathView3D }
         }
-        ToolButton {
+        TouchButton {
+            Layout.fillHeight: true
             action: ZoomOriginalAction { view: pathView3D }
         }
-        ToolButton {
+        TouchButton {
+            Layout.fillHeight: true
             action: ViewModeAction { view: pathView3D; viewMode: "Top" }
         }
-        ToolButton {
+        TouchButton {
+            Layout.fillHeight: true
             action: ViewModeAction { view: pathView3D; viewMode: "RotatedTop" }
         }
-        ToolButton {
+        TouchButton {
+            Layout.fillHeight: true
             action: ViewModeAction { view: pathView3D; viewMode: "Front" }
         }
-        ToolButton {
+        TouchButton {
+            Layout.fillHeight: true
             action: ViewModeAction { view: pathView3D; viewMode: "Side" }
         }
-        ToolButton {
+        TouchButton {
+            Layout.fillHeight: true
             action: ViewModeAction { view: pathView3D; viewMode: "Perspective" }
+        }
+        Item {
+            Layout.fillWidth: true
         }
     }
 
