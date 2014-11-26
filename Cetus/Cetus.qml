@@ -85,14 +85,6 @@ ServiceWindow {
 
     }
 
-    /*ConfigurationPanel {
-        id: groupBox
-        anchors.left: leftTabView.left
-        anchors.right: leftTabView.right
-        anchors.bottom: sourceView.top
-        height: parent.height * 0.28
-    }*/
-
     TabView {
         id: centerTabView
         anchors.left: leftTabView.right
