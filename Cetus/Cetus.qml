@@ -15,11 +15,16 @@ ServiceWindow {
     visible: true
     width: 1200
     height: 900
-    title: qsTr("Cetus")
+    title: applicationCore.applicationName + (d.machineName == "" ? "" :" - " +  d.machineName)
 
     statusBar:applicationStatusBar
     toolBar: applicationToolBarMobile.active ? applicationToolBarMobile : applicationToolBar
     menuBar: applicationMenuBar
+
+    QtObject {
+        id: d
+        property string machineName: applicationCore.status.config.name
+    }
 
     ApplicationStatusBar { id: applicationStatusBar }
     ApplicationMenuBar { id: applicationMenuBar }
