@@ -114,6 +114,13 @@ ServiceWindow {
                 id: pathView
                 anchors.fill: parent
 
+                onViewModeChanged: {
+                    cameraZoom = 0.95
+                    cameraOffset = Qt.vector3d(0,0,0)
+                    cameraPitch = 60
+                    cameraHeading = -135
+                }
+
                 Binding {
                     target: pathView; property: "zoom"; value: pathView3D.zoom
                 }
