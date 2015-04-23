@@ -23,6 +23,9 @@ ApplicationWindow {
         defaultTitle: "Cetus"
         autoSelectInstance: false
         autoSelectApplication: true
+        remoteVisible: false
+        localVisible: true
+        mode: "local"
         lookupMode: ServiceDiscovery.MulticastDNS
         applications: [
             ApplicationDescription {
