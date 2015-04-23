@@ -122,10 +122,10 @@ ServiceWindow {
                 }
 
                 Binding {
-                    target: pathView; property: "zoom"; value: pathView3D.zoom
+                    target: pathView; property: "cameraZoom"; value: pathView3D.cameraZoom
                 }
                 Binding {
-                    target: pathView3D; property: "zoom"; value: pathView.zoom
+                    target: pathView3D; property: "cameraZoom"; value: pathView.cameraZoom
                 }
                 Binding {
                     target: pathView; property: "viewMode"; value: pathView3D.viewMode
@@ -155,7 +155,7 @@ ServiceWindow {
 
         QtObject {
             id: pathView3D
-            property double zoom: 0.95
+            property double cameraZoom: 0.95
             property string viewMode: "Perspective"
         }
 
