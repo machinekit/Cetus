@@ -190,6 +190,10 @@ ServiceWindow {
         messageWidth: parent.width * 0.15
     }
 
+    ApplicationFileDialog {
+        id: applicationFileDialog
+    }
+
     AboutDialog {
         id: aboutDialog
     }

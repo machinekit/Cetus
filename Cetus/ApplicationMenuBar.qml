@@ -1,12 +1,65 @@
 import QtQuick 2.0
-import QtQuick.Controls 1.2
+import QtQuick.Controls 1.4
+import Machinekit.Application.Controls 1.0
 
 MenuBar {
     Menu {
         title: qsTr("&File")
+        MenuItem { action: OpenAction { fileDialog: applicationFileDialog } }
+        // Recent files
+        // Edit...
+        MenuItem { action: ReopenAction {} }
+        // Save GCode
+        // Properties
+        MenuSeparator {}
+        // Tool table
+        // Ladder editor
+
+        MenuItem {
+            text: qsTr("&Disconnect")
+            iconName: "network-disconnect"
+            onTriggered: {
+                window.disconnect()
+            }
+        }
+
+        MenuItem {
+            text: qsTr("Sh&utdown")
+            action: ShutdownAction {}
+            onTriggered: {
+                window.disconnect()
+            }
+        }
+
+        MenuItem {
+            text: qsTr("E&xit")
+            iconName: "application-exit"
+            shortcut: "Ctrl+Q"
+            onTriggered: {
+                Qt.quit()
+            }
+        }
     }
     Menu {
         title: qsTr("&Machine")
+
+        MenuItem { action: EstopAction {} }
+        MenuItem { action: PowerAction {} }
+        MenuSeparator {}
+        MenuItem { action: RunProgramAction {} }
+        // run from line
+        MenuItem { action: StepProgramAction {} }
+        MenuItem { action: PauseResumeProgramAction {} }
+        MenuItem { action: StopProgramAction {} }
+        // stop at M1
+        // skip lines with /
+        // mdi
+        // homing
+        // unhoming
+        // touch off
+        // calibration, status, ...
+        // tool touch off to workpiece
+        // tool touch off to fixture
     }
     Menu {
         title: qsTr("&View")

@@ -29,8 +29,4 @@ ToolBar {
         ToolButton { action: ViewModeAction { view: pathView3D; viewMode: "Side" } }
         ToolButton { action: ViewModeAction { view: pathView3D; viewMode: "Perspective" } }
     }
-
-    ApplicationFileDialog {
-        id: applicationFileDialog
-    }
 }
