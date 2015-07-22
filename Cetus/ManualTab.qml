@@ -56,6 +56,7 @@ Tab {
                 JogDistanceComboBox {
                     id: jogCombo
                     Layout.fillWidth: true
+                    axis: axisRadioGroup.axis
                 }
             }
 
