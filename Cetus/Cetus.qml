@@ -21,7 +21,7 @@ ServiceWindow {
     toolBar: applicationToolBarMobile.active ? applicationToolBarMobile : applicationToolBar
     menuBar: applicationMenuBar
 
-    QtObject {
+    Item {
         id: d
         property string machineName: applicationCore.status.config.name
     }
@@ -153,7 +153,7 @@ ServiceWindow {
             }
         }
 
-        QtObject {
+        Item {
             id: pathView3D
             property double cameraZoom: 0.95
             property string viewMode: "Perspective"

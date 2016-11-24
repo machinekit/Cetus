@@ -4,7 +4,7 @@ import QtQuick.Controls 1.2
 Action {
     property string groupName: "group"
     property string valueName: "value"
-    text: qsTr("Group Value")
+    text: "Group Value"
     checkable: true
     checked: applicationCore.settings.initialized && applicationCore.settings.values[groupName][valueName]
     onTriggered: {
