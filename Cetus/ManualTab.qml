@@ -65,6 +65,11 @@ Tab {
 
                 Button {
                     Layout.fillWidth: false
+                    action: HomeAxisAction { axis: -1 }
+                }
+
+                Button {
+                    Layout.fillWidth: false
                     action: HomeAxisAction { axis: axisRadioGroup.axis }
                 }
 
@@ -109,6 +114,7 @@ Tab {
                 id: jogVelocitySlider
                 Layout.fillWidth: true
                 axis: axisRadioGroup.axis
+                proportional: true
             }
 
             Label {

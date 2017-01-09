@@ -35,5 +35,3 @@ ApplicationWindow {
         instanceFilter: ServiceDiscoveryFilter{ name: "" }
     }
 }
-
-

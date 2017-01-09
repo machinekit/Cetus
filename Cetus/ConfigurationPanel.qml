@@ -76,6 +76,7 @@ Item {
             id: maximumVelocitySlider
             Layout.fillWidth: true
             Layout.fillHeight: false
+            proportional: true
         }
 
         Item {

@@ -7,7 +7,10 @@ MenuBar {
         title: qsTr("&File")
         MenuItem { action: OpenAction { fileDialog: applicationFileDialog } }
         // Recent files
-        // Edit...
+        MenuItem {
+            text: qsTr("&Edit..")
+            //action: EditProgramAction {}
+        }
         MenuItem { action: ReopenAction {} }
         // Save GCode
         // Properties
@@ -51,6 +54,7 @@ MenuBar {
         MenuItem { action: StepProgramAction {} }
         MenuItem { action: PauseResumeProgramAction {} }
         MenuItem { action: StopProgramAction {} }
+        MenuItem { action: OptionalStopAction {} }
         // stop at M1
         // skip lines with /
         // mdi
