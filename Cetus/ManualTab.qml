@@ -64,18 +64,17 @@ Tab {
                 Layout.fillWidth: true
 
                 Button {
+                    id: homeAllAxesButton
                     Layout.fillWidth: false
                     action: HomeAxisAction { axis: -1 }
+                    visible: !homeAxisButton.visible
                 }
 
                 Button {
+                    id: homeAxisButton
                     Layout.fillWidth: false
                     action: HomeAxisAction { axis: axisRadioGroup.axis }
-                }
-
-                Button {
-                    Layout.fillWidth: false
-                    action: UnhomeAxisAction { axis: axisRadioGroup.axis }
+                    visible: enabled && !homeAllAxesButton.enabled
                 }
 
                 Button {
