@@ -98,63 +98,16 @@ ServiceWindow {
         Tab {
             id: droTab
             title: qsTr("DRO")
-            Item {
-                DigitalReadOut {
-                    anchors.left: parent.left
-                    anchors.top: parent.top
-                    anchors.margins: Screen.pixelDensity*2
-                }
-            }
+            DroPanel {}
         }
         Tab {
             id: previewTab
             title: qsTr("Preview")
-
-            PathView3D {
-                id: pathView
-                anchors.fill: parent
-
-                onViewModeChanged: {
-                    cameraZoom = 0.95
-                    cameraOffset = Qt.vector3d(0,0,0)
-                    cameraPitch = 60
-                    cameraHeading = -135
-                }
-
-                Binding {
-                    target: pathView; property: "cameraZoom"; value: pathView3D.cameraZoom
-                }
-                Binding {
-                    target: pathView3D; property: "cameraZoom"; value: pathView.cameraZoom
-                }
-                Binding {
-                    target: pathView; property: "viewMode"; value: pathView3D.viewMode
-                }
-                Binding {
-                    target: pathView3D; property: "viewMode"; value: pathView.viewMode
-                }
-
-                Rectangle {
-                    id: droRect
-                    anchors.top: parent.top
-                    anchors.left: parent.left
-                    anchors.margins: Screen.pixelDensity * 2
-                    width: dro.width
-                    height: dro.height
-                    color: Qt.rgba(0, 0, 0, 0.7)
-                    radius: Screen.pixelDensity * 3
-                    border.width: 1
-                    border.color: "black"
-                    DigitalReadOut {
-                        id: dro
-                        textColor: "white"
-                    }
-                }
-            }
+            PreviewPanel { }
         }
 
         Item {
-            id: pathView3D
+            id: pathViewConfig
             property double cameraZoom: 0.95
             property string viewMode: "Perspective"
         }

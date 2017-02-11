@@ -17,5 +17,6 @@
         <file>Cetus/AboutDialog.qml</file>
         <file>Cetus/ApplicationToolBarMobile.qml</file>
         <file>Init.qml</file>
+        <file>Cetus/PreviewPanel.qml</file>
     </qresource>
 </RCC>
