@@ -15,7 +15,7 @@ ServiceWindow {
     visible: true
     width: 1200
     height: 900
-    title: applicationCore.applicationName + (d.machineName == "" ? "" :" - " +  d.machineName)
+    title: applicationCore.applicationName + (d.machineName === "" ? "" :" - " +  d.machineName)
 
     statusBar:applicationStatusBar
     toolBar: applicationToolBarMobile.active ? applicationToolBarMobile : applicationToolBar

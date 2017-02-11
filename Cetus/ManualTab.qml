@@ -17,7 +17,7 @@ Tab {
                 Layout.fillWidth: true
 
                 Label {
-                        text: qsTr("Axis")
+                    text: qsTr("Axis")
                 }
 
                 Item {
