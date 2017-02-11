@@ -16,7 +16,14 @@
         <file>Cetus/ErrorTab.qml</file>
         <file>Cetus/AboutDialog.qml</file>
         <file>Cetus/ApplicationToolBarMobile.qml</file>
+        <file>Cetus/DRO/DroElementBase.qml</file>
+        <file>Cetus/DRO/DroElementFrame.qml</file>
+        <file>Cetus/DRO/DroLabelText.qml</file>
+        <file>Cetus/DRO/MultiText.qml</file>
+        <file>Cetus/DRO/StyledDro.qml</file>
         <file>Init.qml</file>
         <file>Cetus/PreviewPanel.qml</file>
+        <file>Cetus/DroPanel.qml</file>
+        <file>Cetus/DRO/StyledDroBase.qml</file>
     </qresource>
 </RCC>

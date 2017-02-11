@@ -98,6 +98,10 @@
         <source>About &amp;Cetus</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Open file from machine...</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>ApplicationStatusBar</name>
@@ -212,6 +216,13 @@
     </message>
     <message>
         <source>Active GCodes</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>PreviewPanel</name>
+    <message>
+        <source>Enable preview</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

@@ -20,7 +20,7 @@
     </message>
     <message>
         <source>&amp;Edit..</source>
-        <translation>&amp;Bearbeiten</translation>
+        <translation>&amp;Bearbeiten..</translation>
     </message>
     <message>
         <source>&amp;Disconnect</source>
@@ -97,6 +97,10 @@
     <message>
         <source>About &amp;Cetus</source>
         <translation>Über &amp;Cetus</translation>
+    </message>
+    <message>
+        <source>Open file from machine...</source>
+        <translation>Öffnen von Maschine...</translation>
     </message>
 </context>
 <context>
@@ -213,6 +217,13 @@
     <message>
         <source>Active GCodes</source>
         <translation>Aktive GCodes</translation>
+    </message>
+</context>
+<context>
+    <name>PreviewPanel</name>
+    <message>
+        <source>Enable preview</source>
+        <translation>Vorschau aktivieren</translation>
     </message>
 </context>
 <context>
