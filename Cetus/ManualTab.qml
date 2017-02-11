@@ -9,12 +9,6 @@ Tab {
 
     Item {
 
-        /*JogStick {
-            id: jogStick
-            status: applicationStatus
-            command: applicationCommand
-        }*/
-
         ColumnLayout {
             anchors.fill: parent
             anchors.margins: 5
