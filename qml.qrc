@@ -8,7 +8,6 @@
         <file>Cetus/ApplicationToolBar.qml</file>
         <file>Cetus/ConfigurationPanel.qml</file>
         <file>Cetus/DisplayPanel.qml</file>
-        <file>Cetus/ExtensionTabs.qml</file>
         <file>Cetus/ManualTab.qml</file>
         <file>Cetus/MdiTab.qml</file>
         <file>Cetus/ToggleSettingAction.qml</file>
@@ -25,5 +24,6 @@
         <file>Cetus/PreviewPanel.qml</file>
         <file>Cetus/DroPanel.qml</file>
         <file>Cetus/DRO/StyledDroBase.qml</file>
+        <file>Cetus/WebcamPanel.qml</file>
     </qresource>
 </RCC>

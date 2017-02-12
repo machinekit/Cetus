@@ -49,6 +49,12 @@ ServiceWindow {
         id: pathViewCore
     }
 
+    Item {
+        id: pathViewConfig
+        property double cameraZoom: 0.95
+        property string viewMode: "Perspective"
+    }
+
     SourceView {
         id: sourceView
         anchors.left: parent.left
@@ -64,13 +70,9 @@ ServiceWindow {
         anchors.bottom: sourceView.top
         width: parent.width * 0.3
 
-        ManualTab {
+        ManualTab { }
 
-        }
-
-        MdiTab {
-
-        }
+        MdiTab { }
 
         Action {
             id: mdiAction
@@ -106,23 +108,11 @@ ServiceWindow {
             PreviewPanel { }
         }
 
-        Item {
-            id: pathViewConfig
-            property double cameraZoom: 0.95
-            property string viewMode: "Perspective"
-        }
-
-        ExtensionTabs { id: extensionTabs }
-
-        onActiveChanged:  {
-            if (!loaded) {
-                var tabs = extensionTabs.children
-                for (var i = 0; i < tabs.length; ++i)
-                {
-                    centerTabView.addTab(tabs[i].title, tabs[i].sourceComponent)
-                }
-                loaded = true
-            }
+        Tab {
+            id: webcamTab
+            active: true
+            title: qsTr("Webcam")
+            WebcamPanel { }
         }
     }
 

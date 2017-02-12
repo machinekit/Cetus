@@ -140,6 +140,10 @@
         <source>Preview</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Webcam</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>ConfigurationPanel</name>
@@ -167,21 +171,6 @@
     <name>ErrorTab</name>
     <message>
         <source>Error</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>ExtensionTabs</name>
-    <message>
-        <source>Webcam</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>No webcam connected.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Turn on the switch.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -266,6 +255,17 @@
     </message>
     <message>
         <source>Probe</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>WebcamPanel</name>
+    <message>
+        <source>No webcam connected.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Turn on the switch.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

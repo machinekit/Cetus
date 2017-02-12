@@ -140,6 +140,10 @@
         <source>Preview</source>
         <translation>Vorschau</translation>
     </message>
+    <message>
+        <source>Webcam</source>
+        <translation>Kamera</translation>
+    </message>
 </context>
 <context>
     <name>ConfigurationPanel</name>
@@ -174,15 +178,15 @@
     <name>ExtensionTabs</name>
     <message>
         <source>Webcam</source>
-        <translation>Kamera</translation>
+        <translation type="vanished">Kamera</translation>
     </message>
     <message>
         <source>No webcam connected.</source>
-        <translation>Keine Kamera verbunden.</translation>
+        <translation type="vanished">Keine Kamera verbunden.</translation>
     </message>
     <message>
         <source>Turn on the switch.</source>
-        <translation>Schalter umlegen.</translation>
+        <translation type="vanished">Schalter umlegen.</translation>
     </message>
 </context>
 <context>
@@ -274,6 +278,17 @@
     <message>
         <source>Group Value</source>
         <translation type="vanished">Gruppenwert</translation>
+    </message>
+</context>
+<context>
+    <name>WebcamPanel</name>
+    <message>
+        <source>No webcam connected.</source>
+        <translation>Keine Kamera verbunden.</translation>
+    </message>
+    <message>
+        <source>Turn on the switch.</source>
+        <translation>Schalter umlegen.</translation>
     </message>
 </context>
 </TS>
