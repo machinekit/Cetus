@@ -9,12 +9,6 @@ Tab {
 
     Item {
 
-        /*JogStick {
-            id: jogStick
-            status: applicationStatus
-            command: applicationCommand
-        }*/
-
         ColumnLayout {
             anchors.fill: parent
             anchors.margins: 5
@@ -23,7 +17,7 @@ Tab {
                 Layout.fillWidth: true
 
                 Label {
-                        text: qsTr("Axis")
+                    text: qsTr("Axis")
                 }
 
                 Item {

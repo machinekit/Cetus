@@ -20,13 +20,13 @@ ToolBar {
         ToolButton { action: StepProgramAction { } }
         ToolButton { action: PauseResumeProgramAction { } }
         ToolButton { action: StopProgramAction { } }
-        ToolButton { action: ZoomOutAction { view: pathView3D } }
-        ToolButton { action: ZoomInAction { view: pathView3D } }
-        ToolButton { action: ZoomOriginalAction { view: pathView3D } }
-        ToolButton { action: ViewModeAction { view: pathView3D; viewMode: "Top" } }
-        ToolButton { action: ViewModeAction { view: pathView3D; viewMode: "RotatedTop" } }
-        ToolButton { action: ViewModeAction { view: pathView3D; viewMode: "Front" } }
-        ToolButton { action: ViewModeAction { view: pathView3D; viewMode: "Side" } }
-        ToolButton { action: ViewModeAction { view: pathView3D; viewMode: "Perspective" } }
+        ToolButton { action: ZoomOutAction { view: pathViewConfig } }
+        ToolButton { action: ZoomInAction { view: pathViewConfig } }
+        ToolButton { action: ZoomOriginalAction { view: pathViewConfig } }
+        ToolButton { action: ViewModeAction { view: pathViewConfig; viewMode: "Top" } }
+        ToolButton { action: ViewModeAction { view: pathViewConfig; viewMode: "RotatedTop" } }
+        ToolButton { action: ViewModeAction { view: pathViewConfig; viewMode: "Front" } }
+        ToolButton { action: ViewModeAction { view: pathViewConfig; viewMode: "Side" } }
+        ToolButton { action: ViewModeAction { view: pathViewConfig; viewMode: "Perspective" } }
     }
 }

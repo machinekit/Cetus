@@ -6,6 +6,13 @@ MenuBar {
     Menu {
         title: qsTr("&File")
         MenuItem { action: OpenAction { fileDialog: applicationFileDialog } }
+        MenuItem {
+            text: qsTr("Open file from machine...")
+            action: OpenAction {
+                fileDialog: remoteFileDialog
+                shortcut: "Shift+O"
+            }
+        }
         // Recent files
         MenuItem {
             text: qsTr("&Edit..")

@@ -20,7 +20,7 @@
     </message>
     <message>
         <source>&amp;Edit..</source>
-        <translation>&amp;Bearbeiten</translation>
+        <translation>&amp;Bearbeiten..</translation>
     </message>
     <message>
         <source>&amp;Disconnect</source>
@@ -98,6 +98,10 @@
         <source>About &amp;Cetus</source>
         <translation>Über &amp;Cetus</translation>
     </message>
+    <message>
+        <source>Open file from machine...</source>
+        <translation>Öffnen von Maschine...</translation>
+    </message>
 </context>
 <context>
     <name>ApplicationStatusBar</name>
@@ -136,6 +140,10 @@
         <source>Preview</source>
         <translation>Vorschau</translation>
     </message>
+    <message>
+        <source>Webcam</source>
+        <translation>Kamera</translation>
+    </message>
 </context>
 <context>
     <name>ConfigurationPanel</name>
@@ -170,15 +178,15 @@
     <name>ExtensionTabs</name>
     <message>
         <source>Webcam</source>
-        <translation>Kamera</translation>
+        <translation type="vanished">Kamera</translation>
     </message>
     <message>
         <source>No webcam connected.</source>
-        <translation>Keine Kamera verbunden.</translation>
+        <translation type="vanished">Keine Kamera verbunden.</translation>
     </message>
     <message>
         <source>Turn on the switch.</source>
-        <translation>Schalter umlegen.</translation>
+        <translation type="vanished">Schalter umlegen.</translation>
     </message>
 </context>
 <context>
@@ -213,6 +221,13 @@
     <message>
         <source>Active GCodes</source>
         <translation>Aktive GCodes</translation>
+    </message>
+</context>
+<context>
+    <name>PreviewPanel</name>
+    <message>
+        <source>Enable preview</source>
+        <translation>Vorschau aktivieren</translation>
     </message>
 </context>
 <context>
@@ -263,6 +278,17 @@
     <message>
         <source>Group Value</source>
         <translation type="vanished">Gruppenwert</translation>
+    </message>
+</context>
+<context>
+    <name>WebcamPanel</name>
+    <message>
+        <source>No webcam connected.</source>
+        <translation>Keine Kamera verbunden.</translation>
+    </message>
+    <message>
+        <source>Turn on the switch.</source>
+        <translation>Schalter umlegen.</translation>
     </message>
 </context>
 </TS>
