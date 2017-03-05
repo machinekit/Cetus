@@ -139,8 +139,8 @@ ServiceWindow {
 
     ApplicationRemoteFileDialog {
         id: remoteFileDialog
-        width: parent.width
-        height: parent.height
+        width: window.width
+        height: window.height
     }
 
     AboutDialog {
