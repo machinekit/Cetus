@@ -60,15 +60,15 @@ Tab {
                 Button {
                     id: homeAllAxesButton
                     Layout.fillWidth: false
-                    action: HomeAxisAction { axis: -1 }
-                    visible: !homeAxisButton.visible
+                    action: HomeAxisAction { id: homeAxisAction; axis: -1 }
+                    visible: homeAxisAction.homeAllAxesHelper.homingOrderDefined
                 }
 
                 Button {
                     id: homeAxisButton
                     Layout.fillWidth: false
                     action: HomeAxisAction { axis: axisRadioGroup.axis }
-                    visible: enabled && !homeAllAxesButton.enabled
+                    visible: !homeAllAxesButton.visible
                 }
 
                 Button {
