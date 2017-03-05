@@ -17,5 +17,6 @@ Rectangle {
         rotation: root.rotated ? -90 : 0
         text: root.text
         color: root.textColor
+        font.pixelSize: 20
     }
 }
