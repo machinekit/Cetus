@@ -1,3 +1,5 @@
+TARGET = cetus
+
 TEMPLATE = app
 NAME = Cetus
 
