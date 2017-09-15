@@ -4,7 +4,6 @@
         <file>Cetus/Cetus.qml</file>
         <file>Cetus/description.ini</file>
         <file>Cetus/ApplicationMenuBar.qml</file>
-        <file>Cetus/ApplicationStatusBar.qml</file>
         <file>Cetus/ApplicationToolBar.qml</file>
         <file>Cetus/ConfigurationPanel.qml</file>
         <file>Cetus/DisplayPanel.qml</file>
@@ -27,5 +26,6 @@
         <file>Cetus/WebcamPanel.qml</file>
         <file>Cetus/Singletons/Info.qml</file>
         <file>Cetus/Singletons/qmldir</file>
+        <file>Cetus/StatusBar/ApplicationStatusBar.qml</file>
     </qresource>
 </RCC>

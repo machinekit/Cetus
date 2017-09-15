@@ -102,26 +102,6 @@
 <context>
     <name>ApplicationStatusBar</name>
     <message>
-        <source>Not connected</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>No Tool</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Position: </source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Relative Actual</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Machine Actual</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source></source>
         <translation></translation>
     </message>

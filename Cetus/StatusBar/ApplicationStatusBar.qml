@@ -58,7 +58,7 @@ StatusBar {
             Layout.fillWidth: true
         }
 
-        ApplicationProgressBar{
+        ApplicationProgressBar {
             Layout.fillHeight: true
             width: parent.width * 0.3
             anchors.margins: 5

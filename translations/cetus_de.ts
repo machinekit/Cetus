@@ -107,23 +107,23 @@
     <name>ApplicationStatusBar</name>
     <message>
         <source>Not connected</source>
-        <translation>Nicht verbunden</translation>
+        <translation type="vanished">Nicht verbunden</translation>
     </message>
     <message>
         <source>No Tool</source>
-        <translation>Kein Werkzeug</translation>
+        <translation type="vanished">Kein Werkzeug</translation>
     </message>
     <message>
         <source>Position: </source>
-        <translation>Position:</translation>
+        <translation type="vanished">Position:</translation>
     </message>
     <message>
         <source>Relative Actual</source>
-        <translation>Relativ Aktual</translation>
+        <translation type="vanished">Relativ Aktual</translation>
     </message>
     <message>
         <source>Machine Actual</source>
-        <translation>Maschine Aktual</translation>
+        <translation type="vanished">Maschine Aktual</translation>
     </message>
     <message>
         <source></source>
