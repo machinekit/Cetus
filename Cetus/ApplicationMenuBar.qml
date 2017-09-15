@@ -14,10 +14,7 @@ MenuBar {
             }
         }
         // Recent files
-        MenuItem {
-            text: qsTr("&Edit..")
-            //action: EditProgramAction {}
-        }
+        MenuItem { action: EditWithSystemEditorAction {} }
         MenuItem { action: ReopenAction {} }
         // Save GCode
         // Properties
