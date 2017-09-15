@@ -54,10 +54,10 @@ StatusBar {
                 }
             }
 
-
             Item {
                 Layout.fillWidth: true
             }
+
             ApplicationProgressBar{
                 Layout.fillHeight: true
                 width: parent.width * 0.3
