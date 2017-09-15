@@ -27,5 +27,9 @@
         <file>Cetus/Singletons/Info.qml</file>
         <file>Cetus/Singletons/qmldir</file>
         <file>Cetus/StatusBar/ApplicationStatusBar.qml</file>
+        <file>Cetus/StatusBar/MachineStatusLabel.qml</file>
+        <file>Cetus/StatusBar/ToolStatusLabel.qml</file>
+        <file>Cetus/StatusBar/PositionOffsetLabel.qml</file>
+        <file>Cetus/StatusBar/Spacer.qml</file>
     </qresource>
 </RCC>
