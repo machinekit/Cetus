@@ -25,5 +25,7 @@
         <file>Cetus/DroPanel.qml</file>
         <file>Cetus/DRO/StyledDroBase.qml</file>
         <file>Cetus/WebcamPanel.qml</file>
+        <file>Cetus/Singletons/Info.qml</file>
+        <file>Cetus/Singletons/qmldir</file>
     </qresource>
 </RCC>
