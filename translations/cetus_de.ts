@@ -20,7 +20,7 @@
     </message>
     <message>
         <source>&amp;Edit..</source>
-        <translation>&amp;Bearbeiten..</translation>
+        <translation type="vanished">&amp;Bearbeiten..</translation>
     </message>
     <message>
         <source>&amp;Disconnect</source>

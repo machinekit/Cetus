@@ -19,10 +19,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>&amp;Edit..</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>&amp;Disconnect</source>
         <translation type="unfinished"></translation>
     </message>
