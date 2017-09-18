@@ -23,7 +23,7 @@ MenuBar {
         // Ladder editor
 
         MenuItem {
-            text: qsTr("&Disconnect")
+            text: qsTr("&Disconnect from Session")
             iconName: "network-disconnect"
             onTriggered: {
                 window.disconnect()
@@ -31,7 +31,7 @@ MenuBar {
         }
 
         MenuItem {
-            text: qsTr("Sh&utdown")
+            text: qsTr("Sh&utdown Session")
             action: ShutdownAction {}
             onTriggered: {
                 window.disconnect()
@@ -39,7 +39,7 @@ MenuBar {
         }
 
         MenuItem {
-            text: qsTr("E&xit")
+            text: qsTr("E&xit User Interace")
             iconName: "application-exit"
             shortcut: "Ctrl+Q"
             onTriggered: {
