@@ -16,7 +16,13 @@ Item {
         id: d
         readonly property string restValue: d.clampingFixed(value, decimals)
         readonly property int leftOver: (decimals + digits + 1) - restValue.length
-        readonly property string leftOverText: "00000000".slice(-leftOver)
+        readonly property string leftOverText: d.getLeftOverText(leftOver)
+
+        function getLeftOverText(len) {
+            if (len > 0)
+                return (Array(digits + 1).join('0')).slice(-len);
+            return "";
+        }
 
         function clampingFixed(value, decimals) {
             var factor = Math.pow(10, decimals);
