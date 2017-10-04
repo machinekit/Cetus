@@ -78,6 +78,8 @@ AbstractDigitalReadOut {
         groupText: qsTr("%1 Offsets").arg(root.g5xNames[root.g5xIndex - 1])
         centerText: qsTr("Position")
         visible: root.offsetsVisible
+        decimals: root.decimals
+        digits: root.digits
 
         model: {
             var list = [];
@@ -102,6 +104,8 @@ AbstractDigitalReadOut {
         groupText: qsTr("G92 Offsets")
         centerText: qsTr("Position")
         visible: root.offsetsVisible
+        decimals: root.decimals
+        digits: root.digits
 
         model: {
             var list = [];
@@ -125,6 +129,8 @@ AbstractDigitalReadOut {
         groupText: qsTr("Tool Offsets")
         centerText: qsTr("Position")
         visible: root.offsetsVisible
+        decimals: root.decimals
+        digits: root.digits
 
         model: {
             var list = [];
