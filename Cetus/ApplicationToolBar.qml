@@ -5,6 +5,7 @@ import QtQuick.Window 2.0
 import Machinekit.Application.Controls 1.0
 import Machinekit.PathView 1.0
 import Machinekit.Controls 1.0
+import "Controls"
 
 ToolBar {
     implicitHeight: rowLayout.implicitHeight
@@ -14,12 +15,15 @@ ToolBar {
 
         ToolButton { action: EstopAction { } }
         ToolButton { action: PowerAction { } }
+        Spacer {}
         ToolButton { action: OpenAction { fileDialog: applicationFileDialog } }
         ToolButton { action: ReopenAction { } }
+        Spacer {}
         ToolButton { action: RunProgramAction { } }
         ToolButton { action: StepProgramAction { } }
         ToolButton { action: PauseResumeProgramAction { } }
         ToolButton { action: StopProgramAction { } }
+        Spacer {}
         ToolButton { action: ZoomOutAction { view: pathViewConfig } }
         ToolButton { action: ZoomInAction { view: pathViewConfig } }
         ToolButton { action: ZoomOriginalAction { view: pathViewConfig } }
