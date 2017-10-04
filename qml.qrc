@@ -30,6 +30,6 @@
         <file>Cetus/StatusBar/MachineStatusLabel.qml</file>
         <file>Cetus/StatusBar/ToolStatusLabel.qml</file>
         <file>Cetus/StatusBar/PositionOffsetLabel.qml</file>
-        <file>Cetus/StatusBar/Spacer.qml</file>
+        <file>Cetus/Controls/Spacer.qml</file>
     </qresource>
 </RCC>
