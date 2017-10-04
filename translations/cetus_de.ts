@@ -24,15 +24,15 @@
     </message>
     <message>
         <source>&amp;Disconnect</source>
-        <translation>&amp;Verbindung trennen</translation>
+        <translation type="vanished">&amp;Verbindung trennen</translation>
     </message>
     <message>
         <source>Sh&amp;utdown</source>
-        <translation>&amp;Herunterfahren</translation>
+        <translation type="vanished">&amp;Herunterfahren</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
-        <translation>&amp;Beenden</translation>
+        <translation type="vanished">&amp;Beenden</translation>
     </message>
     <message>
         <source>&amp;Machine</source>
@@ -101,6 +101,18 @@
     <message>
         <source>Open file from machine...</source>
         <translation>Öffnen von Maschine...</translation>
+    </message>
+    <message>
+        <source>&amp;Disconnect from Session</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sh&amp;utdown Session</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>E&amp;xit User Interace</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

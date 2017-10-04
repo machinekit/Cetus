@@ -19,18 +19,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>&amp;Disconnect</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Sh&amp;utdown</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>E&amp;xit</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>&amp;Machine</source>
         <translation type="unfinished"></translation>
     </message>
@@ -96,6 +84,18 @@
     </message>
     <message>
         <source>Open file from machine...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Disconnect from Session</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sh&amp;utdown Session</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>E&amp;xit User Interace</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

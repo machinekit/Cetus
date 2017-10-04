@@ -19,7 +19,12 @@ MenuBar {
         // Save GCode
         // Properties
         MenuSeparator {}
-        // Tool table
+        MenuItem {
+            action: EditToolTableAction {
+                editorDialog: toolTableEditorDialog
+                shortcut: "Ctrl+T"
+            }
+        }
         // Ladder editor
 
         MenuItem {

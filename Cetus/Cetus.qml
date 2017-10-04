@@ -144,6 +144,12 @@ ServiceWindow {
         height: window.height
     }
 
+    ToolTableEditorDialog {
+        id: toolTableEditorDialog
+        width: window.width
+        height: window.height
+    }
+
     AboutDialog {
         id: aboutDialog
     }
