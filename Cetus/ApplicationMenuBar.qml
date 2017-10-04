@@ -25,26 +25,20 @@ MenuBar {
         MenuItem {
             text: qsTr("&Disconnect from Session")
             iconName: "network-disconnect"
-            onTriggered: {
-                window.disconnect()
-            }
+            onTriggered: window.disconnect()
         }
 
         MenuItem {
             text: qsTr("Sh&utdown Session")
             action: ShutdownAction {}
-            onTriggered: {
-                window.disconnect()
-            }
+            onTriggered: window.disconnect()
         }
 
         MenuItem {
             text: qsTr("E&xit User Interace")
             iconName: "application-exit"
             shortcut: "Ctrl+Q"
-            onTriggered: {
-                Qt.quit()
-            }
+            onTriggered: Qt.quit()
         }
     }
     Menu {
