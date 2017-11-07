@@ -51,9 +51,10 @@ Item {
         id: enablePreviewCheck
         anchors.centerIn: parent
         visible: !pathView.visible
-        checked: enablePreviewAction.checked
         text: enablePreviewAction.text
         onClicked: enablePreviewAction.trigger()
+
+        Binding { target: enablePreviewCheck; property: "checked"; value: enablePreviewAction.checked }
 
         ToggleSettingAction {
             id: enablePreviewAction
