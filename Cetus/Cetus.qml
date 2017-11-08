@@ -142,6 +142,7 @@ ServiceWindow {
         id: remoteFileDialog
         width: window.width
         height: window.height
+        fileDialog: applicationFileDialog
     }
 
     ToolTableEditorDialog {
