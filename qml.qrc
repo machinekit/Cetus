@@ -31,5 +31,6 @@
         <file>Cetus/StatusBar/ToolStatusLabel.qml</file>
         <file>Cetus/StatusBar/PositionOffsetLabel.qml</file>
         <file>Cetus/Controls/Spacer.qml</file>
+        <file>Cetus/KeyboardJogControl.qml</file>
     </qresource>
 </RCC>

@@ -34,6 +34,7 @@ Tab {
                 Layout.fillWidth: true
 
                 JogButton {
+                    id: decrementButton
                     Layout.fillWidth: false
                     direction: -1
                     distance: jogCombo.distance
@@ -41,6 +42,7 @@ Tab {
                 }
 
                 JogButton {
+                    id: incrementButton
                     Layout.fillWidth: false
                     direction: 1
                     distance: jogCombo.distance
@@ -51,6 +53,15 @@ Tab {
                     id: jogCombo
                     Layout.fillWidth: true
                     axis: axisRadioGroup.axis
+                }
+
+                KeyboardJogControl {
+                    id: keyboardJogControl
+                    enabled: jogCombo.distance !== 0.0
+                    onSelectAxis: axisRadioGroup.axis = axis
+                    onIncrement: incrementButton._toggle(enabled)
+                    onDecrement: decrementButton._toggle(enabled)
+                    onSelectIncrement: jogCombo.currentIndex = index
                 }
             }
 
