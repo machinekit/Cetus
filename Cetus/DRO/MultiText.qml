@@ -14,20 +14,20 @@ Item {
 
     QtObject {
         id: d
-        readonly property string restValue: d.clampingFixed(value, decimals)
-        readonly property int leftOver: (decimals + digits + 1) - restValue.length
-        readonly property string leftOverText: d.getLeftOverText(leftOver)
+        readonly property double absolute: Math.abs(value)
+        readonly property string restValue: absolute.toFixed(root.decimals)
+        readonly property int leftOver: root.digits - decimalsText.text.length + root.decimals + 1
+        readonly property string leftOverText: (leftOver <= 0) ? "" : "000000000".slice(-leftOver)
+        readonly property bool sign: Number(value.toFixed(decimals)) < 0
+    }
 
-        function getLeftOverText(len) {
-            if (len > 0)
-                return (Array(digits + 1).join('0')).slice(-len);
-            return "";
-        }
-
-        function clampingFixed(value, decimals) {
-            var factor = Math.pow(10, decimals);
-            return ((~~(value * factor)) / factor).toFixed(decimals);
-        }
+    Text {
+        id: signText
+        anchors.right: container.left
+        visible: d.sign
+        color: root.activeColor
+        font: digitsText.font
+        text: "-"
     }
 
     Row {
