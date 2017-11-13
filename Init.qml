@@ -14,10 +14,9 @@ ConnectionWindow {
     localVisible: true
     mode: "local"
     lookupMode: ServiceDiscovery.MulticastDNS
-    applications: [
-        ApplicationDescription {
-            sourceDir: "./Cetus/"
-        }
-    ]
-    instanceFilter: ServiceDiscoveryFilter{ name: "" }
+    instanceFilter { name: "" }
+
+    ApplicationDescription {
+        sourceDir: "./Cetus/"
+    }
 }
