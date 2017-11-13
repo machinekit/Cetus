@@ -9,6 +9,7 @@ Item {
     ColumnLayout {
         anchors.fill: parent
         anchors.margins: 5
+
         RowLayout {
             Layout.fillWidth: true
             Layout.fillHeight: false
@@ -28,6 +29,29 @@ Item {
 
         FeedrateSlider {
             id: feedrateSlider
+            Layout.fillWidth: true
+            Layout.fillHeight: false
+        }
+
+        RowLayout {
+            Layout.fillWidth: true
+            Layout.fillHeight: false
+
+            Label {
+                text: qsTr("Rapid Override")
+            }
+
+            Item {
+                Layout.fillWidth: true
+            }
+
+            Label {
+                text: (rapidrateSlider.value * 100).toFixed(0) + "%"
+            }
+        }
+
+        RapidrateSlider {
+            id: rapidrateSlider
             Layout.fillWidth: true
             Layout.fillHeight: false
         }
