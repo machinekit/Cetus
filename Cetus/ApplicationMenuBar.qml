@@ -1,6 +1,7 @@
 import QtQuick 2.0
 import QtQuick.Controls 1.2
 import Machinekit.Application.Controls 1.0
+import Machinekit.PathView 1.0
 
 MenuBar {
     Menu {
@@ -165,6 +166,8 @@ MenuBar {
             valueName: "showCoordinate"
             text: qsTr("Show &coordinate")
         }
+
+        MenuItem { action: ClearBackplotAction { shortcut: "" } }
     }
 
     Menu {

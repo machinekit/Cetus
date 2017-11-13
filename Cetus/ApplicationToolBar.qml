@@ -32,5 +32,7 @@ ToolBar {
         ToolButton { action: ViewModeAction { view: pathViewConfig; viewMode: "Front" } }
         ToolButton { action: ViewModeAction { view: pathViewConfig; viewMode: "Side" } }
         ToolButton { action: ViewModeAction { view: pathViewConfig; viewMode: "Perspective" } }
+        Spacer {}
+        ToolButton { action: ClearBackplotAction {} }
     }
 }

@@ -74,6 +74,10 @@ ToolBar {
             Layout.fillHeight: true
             action: ViewModeAction { view: pathView3D; viewMode: "Perspective" }
         }
+        TouchButton {
+            Layout.fillHeight: true
+            action: ClearBackplotAction {}
+        }
         Item {
             Layout.fillWidth: true
         }
