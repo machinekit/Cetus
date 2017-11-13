@@ -49,16 +49,15 @@ MenuBar {
     Menu {
         title: qsTr("&Machine")
 
-        MenuItem { action: EstopAction {} }
-        MenuItem { action: PowerAction {} }
+        MenuItem { action: EstopAction { shortcut: "" } }
+        MenuItem { action: PowerAction { shortcut: "" } }
         MenuSeparator {}
-        MenuItem { action: RunProgramAction {} }
+        MenuItem { action: RunProgramAction { shortcut: "" } }
         // run from line
-        MenuItem { action: StepProgramAction {} }
-        MenuItem { action: PauseResumeProgramAction {} }
-        MenuItem { action: StopProgramAction {} }
+        MenuItem { action: StepProgramAction { shortcut: "" } }
+        MenuItem { action: PauseResumeProgramAction { shortcut: "" } }
+        MenuItem { action: StopProgramAction { shortcut: "" } }
         MenuItem { action: OptionalStopAction {} }
-        // stop at M1
         // skip lines with /
         // mdi
         // homing
