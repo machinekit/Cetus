@@ -61,7 +61,11 @@ Tab {
                     onSelectAxis: axisRadioGroup.axis = axis
                     onIncrement: incrementButton._toggle(enabled)
                     onDecrement: decrementButton._toggle(enabled)
-                    onSelectIncrement: jogCombo.currentIndex = index
+                    onSelectIncrement: {
+                        if (jogCombo.currentIndex == 0) {
+                            jogCombo.currentIndex = index;
+                        }
+                    }
                 }
             }
 

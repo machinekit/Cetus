@@ -1,10 +1,11 @@
 import QtQuick 2.5
 import QtQuick.Controls 1.2
+import Machinekit.Application 1.0
 
-Item {
-    property int axes: 3
-    property var decerementKeys: ["Left", "Down", "Page Down"]
-    property var incrementKeys: ["Right", "Up", "Page Up"]
+ApplicationItem {
+    property int axes: status.synced ? status.config.axes : 3
+    property var decerementKeys: ["Left", "Down", "Page Down", "["]
+    property var incrementKeys: ["Right", "Up", "Page Up", "]"]
 
     id: root
 
@@ -35,6 +36,7 @@ Item {
         sequence: root.decerementKeys[index]
         onActivated: d.activateDecrement(index)
         enabled: root.axes >= (index + 1)
+        autoRepeat: false
     }
 
     Shortcut {
@@ -42,6 +44,7 @@ Item {
         sequence: root.decerementKeys[index]
         onActivated: d.activateDecrement(index)
         enabled: root.axes >= (index + 1)
+        autoRepeat: false
     }
 
     Shortcut {
@@ -49,6 +52,15 @@ Item {
         sequence: root.decerementKeys[index]
         onActivated: d.activateDecrement(index)
         enabled: root.axes >= (index + 1)
+        autoRepeat: false
+    }
+
+    Shortcut {
+        readonly property int index: 3
+        sequence: root.decerementKeys[index]
+        onActivated: d.activateDecrement(index)
+        enabled: root.axes >= (index + 1)
+        autoRepeat: false
     }
 
     Shortcut {
@@ -56,6 +68,7 @@ Item {
         sequence: root.incrementKeys[index]
         onActivated: d.activateIncrement(index)
         enabled: root.axes >= (index + 1)
+        autoRepeat: false
     }
 
     Shortcut {
@@ -63,6 +76,7 @@ Item {
         sequence: root.incrementKeys[index]
         onActivated: d.activateIncrement(index)
         enabled: root.axes >= (index + 1)
+        autoRepeat: false
     }
 
     Shortcut {
@@ -70,5 +84,14 @@ Item {
         sequence: root.incrementKeys[index]
         onActivated: d.activateIncrement(index)
         enabled: root.axes >= (index + 1)
+        autoRepeat: false
+    }
+
+    Shortcut {
+        readonly property int index: 3
+        sequence: root.incrementKeys[index]
+        onActivated: d.activateIncrement(index)
+        enabled: root.axes >= (index + 1)
+        autoRepeat: false
     }
 }
