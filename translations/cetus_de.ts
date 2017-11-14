@@ -171,6 +171,10 @@
         <source>Maximum Velocity</source>
         <translation>Maximalgeschwindigkeit</translation>
     </message>
+    <message>
+        <source>Rapid Override</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>DisplayPanel</name>
