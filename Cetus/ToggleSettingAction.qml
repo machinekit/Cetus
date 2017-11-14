@@ -1,13 +1,16 @@
 import QtQuick 2.0
 import QtQuick.Controls 1.2
+import Machinekit.Application 1.0
 
-Action {
+ApplicationAction {
     property string groupName: "group"
     property string valueName: "value"
+
+    id: root
     text: "Group Value"
     checkable: true
-    checked: applicationCore.settings.initialized && applicationCore.settings.values[groupName][valueName]
+    checked: settings.initialized && settings.values[groupName][valueName]
     onTriggered: {
-        applicationCore.settings.setValue(groupName + "." + valueName, !applicationCore.settings.values[groupName][valueName])
+        settings.setValue(groupName + "." + valueName, !settings.values[groupName][valueName])
     }
 }
