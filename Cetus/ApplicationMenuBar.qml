@@ -37,7 +37,7 @@ MenuBar {
         MenuItem {
             text: qsTr("Sh&utdown Session")
             action: ShutdownAction {}
-            onTriggered: window.disconnect()
+            onTriggered: window.shutdown()
         }
 
         MenuItem {
