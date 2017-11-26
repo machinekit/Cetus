@@ -1,4 +1,4 @@
-import QtQuick 2.2
+import QtQuick 2.5
 import QtQuick.Controls 1.1
 import QtQuick.Layouts 1.1
 import QtQuick.Dialogs 1.2
@@ -75,15 +75,15 @@ ServiceWindow {
 
         MdiTab { }
 
-        Action {
-            id: mdiAction
-            shortcut: "F5"
-            onTriggered: leftTabView.currentIndex = 1
+        Shortcut {
+            id: mdiShortcut
+            sequence: "F5"
+            onActivated: leftTabView.currentIndex = 1
         }
-        Action {
-            id: manualAction
-            shortcut: "F3"
-            onTriggered: leftTabView.currentIndex = 0
+        Shortcut {
+            id: manualShortcut
+            sequence: "F3"
+            onActivated: leftTabView.currentIndex = 0
         }
 
     }

@@ -5,7 +5,7 @@ import Machinekit.Application 1.0
 import Machinekit.Application.Controls 1.0
 
 Tab {
-    title: qsTr("MDI") + " [" + mdiAction.shortcut + "]"
+    title: qsTr("MDI") + " [" + mdiShortcut.sequence + "]"
     active: true
 
     Item {
