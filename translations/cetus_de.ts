@@ -111,7 +111,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>E&amp;xit User Interace</source>
+        <source>E&amp;xit User Interface</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

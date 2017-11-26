@@ -41,7 +41,7 @@ MenuBar {
         }
 
         MenuItem {
-            text: qsTr("E&xit User Interace")
+            text: qsTr("E&xit User Interface")
             iconName: "application-exit"
             shortcut: "Ctrl+Q"
             onTriggered: Qt.quit()
