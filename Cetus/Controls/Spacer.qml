@@ -8,5 +8,4 @@ Rectangle {
     color: palette.dark
 
     SystemPalette { id: palette }
-
 }

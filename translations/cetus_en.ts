@@ -141,6 +141,13 @@
     </message>
 </context>
 <context>
+    <name>ConfigurationTab</name>
+    <message>
+        <source>Configuration</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>DisplayPanel</name>
     <message>
         <source>Configuration</source>

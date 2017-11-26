@@ -24,7 +24,7 @@ ServiceWindow {
 
     Item {
         id: d
-        property string machineName: applicationCore.status.config.name
+        readonly property string machineName: applicationCore.status.config.name
     }
 
     ApplicationStatusBar { id: applicationStatusBar }

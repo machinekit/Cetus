@@ -5,6 +5,7 @@ import QtQuick.Window 2.0
 import Machinekit.Application.Controls 1.0
 import Machinekit.PathView 1.0
 import Machinekit.Controls 1.0
+import "./Controls"
 
 ToolBar {
     implicitHeight: Screen.pixelDensity * 7.5
@@ -18,14 +19,20 @@ ToolBar {
             Layout.fillHeight: true
             action: PowerAction { }
         }
+        Spacer {}
         TouchButton {
             Layout.fillHeight: true
             action: OpenAction { fileDialog: applicationFileDialog }
         }
         TouchButton {
             Layout.fillHeight: true
+            action: OpenAction { fileDialog: remoteFileDialog; remote: true }
+        }
+        TouchButton {
+            Layout.fillHeight: true
             action: ReopenAction { }
         }
+        Spacer {}
         TouchButton {
             Layout.fillHeight: true
             action: RunProgramAction { }
@@ -42,6 +49,7 @@ ToolBar {
             Layout.fillHeight: true
             action: StopProgramAction { }
         }
+        Spacer {}
         TouchButton {
             Layout.fillHeight: true
             action: ZoomOutAction { view: pathView3D }
@@ -74,6 +82,7 @@ ToolBar {
             Layout.fillHeight: true
             action: ViewModeAction { view: pathView3D; viewMode: "Perspective" }
         }
+        Spacer {}
         TouchButton {
             Layout.fillHeight: true
             action: ClearBackplotAction {}

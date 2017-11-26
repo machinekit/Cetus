@@ -8,22 +8,20 @@ MenuBar {
         title: qsTr("&File")
         MenuItem { action: OpenAction { fileDialog: applicationFileDialog } }
         MenuItem {
-            text: qsTr("Open file from machine...")
             action: OpenAction {
                 fileDialog: remoteFileDialog
-                shortcut: "Shift+O"
+                remote: true
             }
         }
         // Recent files
         MenuItem { action: EditWithSystemEditorAction {} }
-        MenuItem { action: ReopenAction {} }
+        MenuItem { action: ReopenAction { } }
         // Save GCode
         // Properties
         MenuSeparator {}
         MenuItem {
             action: EditToolTableAction {
                 editorDialog: toolTableEditorDialog
-                shortcut: "Ctrl+T"
             }
         }
         // Ladder editor
@@ -50,14 +48,14 @@ MenuBar {
     Menu {
         title: qsTr("&Machine")
 
-        MenuItem { action: EstopAction { shortcut: "" } }
-        MenuItem { action: PowerAction { shortcut: "" } }
+        MenuItem { action: EstopAction { } }
+        MenuItem { action: PowerAction { } }
         MenuSeparator {}
-        MenuItem { action: RunProgramAction { shortcut: "" } }
+        MenuItem { action: RunProgramAction { } }
         // run from line
-        MenuItem { action: StepProgramAction { shortcut: "" } }
-        MenuItem { action: PauseResumeProgramAction { shortcut: "" } }
-        MenuItem { action: StopProgramAction { shortcut: "" } }
+        MenuItem { action: StepProgramAction { } }
+        MenuItem { action: PauseResumeProgramAction { } }
+        MenuItem { action: StopProgramAction { } }
         MenuItem { action: OptionalStopAction {} }
         // skip lines with /
         // mdi
@@ -167,7 +165,7 @@ MenuBar {
             text: qsTr("Show &coordinate")
         }
 
-        MenuItem { action: ClearBackplotAction { shortcut: "" } }
+        MenuItem { action: ClearBackplotAction { } }
     }
 
     Menu {

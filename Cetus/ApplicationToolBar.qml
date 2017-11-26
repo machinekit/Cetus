@@ -5,7 +5,7 @@ import QtQuick.Window 2.0
 import Machinekit.Application.Controls 1.0
 import Machinekit.PathView 1.0
 import Machinekit.Controls 1.0
-import "Controls"
+import "./Controls"
 
 ToolBar {
     implicitHeight: rowLayout.implicitHeight
@@ -13,16 +13,17 @@ ToolBar {
     RowLayout {
         id: rowLayout
 
-        ToolButton { action: EstopAction { } }
-        ToolButton { action: PowerAction { } }
+        ToolButton { action: EstopAction { shortcut: "" } }
+        ToolButton { action: PowerAction { shortcut: "" } }
         Spacer {}
-        ToolButton { action: OpenAction { fileDialog: applicationFileDialog } }
-        ToolButton { action: ReopenAction { } }
+        ToolButton { action: OpenAction { fileDialog: applicationFileDialog; shortcut: "" } }
+        ToolButton { action: OpenAction { fileDialog: remoteFileDialog; remote: true; shortcut: "" } }
+        ToolButton { action: ReopenAction { shortcut: "" } }
         Spacer {}
-        ToolButton { action: RunProgramAction { } }
-        ToolButton { action: StepProgramAction { } }
-        ToolButton { action: PauseResumeProgramAction { } }
-        ToolButton { action: StopProgramAction { } }
+        ToolButton { action: RunProgramAction { shortcut: "" } }
+        ToolButton { action: StepProgramAction { shortcut: "" } }
+        ToolButton { action: PauseResumeProgramAction { shortcut: "" } }
+        ToolButton { action: StopProgramAction { shortcut: "" } }
         Spacer {}
         ToolButton { action: ZoomOutAction { view: pathViewConfig } }
         ToolButton { action: ZoomInAction { view: pathViewConfig } }
@@ -33,6 +34,6 @@ ToolBar {
         ToolButton { action: ViewModeAction { view: pathViewConfig; viewMode: "Side" } }
         ToolButton { action: ViewModeAction { view: pathViewConfig; viewMode: "Perspective" } }
         Spacer {}
-        ToolButton { action: ClearBackplotAction {} }
+        ToolButton { action: ClearBackplotAction { shortcut: "" } }
     }
 }
