@@ -6,6 +6,7 @@ ApplicationItem {
     property int axes: status.synced ? status.config.axes : 3
     property var decerementKeys: ["Left", "Down", "Page Down", "["]
     property var incrementKeys: ["Right", "Up", "Page Up", "]"]
+    property var axisSelectionKeys: ["X", "Y", "Z", "A"]
 
     id: root
 
@@ -91,6 +92,38 @@ ApplicationItem {
         readonly property int index: 3
         sequence: root.incrementKeys[index]
         onActivated: d.activateIncrement(index)
+        enabled: root.axes >= (index + 1)
+        autoRepeat: false
+    }
+
+    Shortcut {
+        readonly property int index: 0
+        sequence: root.axisSelectionKeys[index]
+        onActivated: root.selectAxis(index)
+        enabled: root.axes >= (index + 1)
+        autoRepeat: false
+    }
+
+    Shortcut {
+        readonly property int index: 1
+        sequence: root.axisSelectionKeys[index]
+        onActivated: root.selectAxis(index)
+        enabled: root.axes >= (index + 1)
+        autoRepeat: false
+    }
+
+    Shortcut {
+        readonly property int index: 2
+        sequence: root.axisSelectionKeys[index]
+        onActivated: root.selectAxis(index)
+        enabled: root.axes >= (index + 1)
+        autoRepeat: false
+    }
+
+    Shortcut {
+        readonly property int index: 3
+        sequence: root.axisSelectionKeys[index]
+        onActivated: root.selectAxis(index)
         enabled: root.axes >= (index + 1)
         autoRepeat: false
     }
