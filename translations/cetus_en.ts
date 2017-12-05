@@ -83,10 +83,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Open file from machine...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>&amp;Disconnect from Session</source>
         <translation type="unfinished"></translation>
     </message>

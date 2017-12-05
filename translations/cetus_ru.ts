@@ -5,94 +5,98 @@
     <name>AboutDialog</name>
     <message>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation>Закрыть</translation>
     </message>
     <message>
         <source>About Cetus</source>
-        <translation type="unfinished"></translation>
+        <translation>О Cetus</translation>
     </message>
 </context>
 <context>
     <name>ApplicationMenuBar</name>
     <message>
         <source>&amp;File</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Файл</translation>
     </message>
     <message>
         <source>&amp;Machine</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Машина</translation>
     </message>
     <message>
         <source>&amp;View</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Вид</translation>
     </message>
     <message>
         <source>Show o&amp;ffsets</source>
-        <translation type="unfinished"></translation>
+        <translation>Показать отступы</translation>
     </message>
     <message>
         <source>Show v&amp;elocity</source>
-        <translation type="unfinished"></translation>
+        <translation>Показать скорость</translation>
     </message>
     <message>
         <source>Show &amp;distance to go</source>
-        <translation type="unfinished"></translation>
+        <translation>Показать оставшееся расстояние</translation>
     </message>
     <message>
         <source>Enable &amp;preview</source>
-        <translation type="unfinished"></translation>
+        <translation>Предварительный просмотр</translation>
     </message>
     <message>
         <source>Sh&amp;ow machine limits</source>
-        <translation type="unfinished"></translation>
+        <translation>Показать пределы машины</translation>
     </message>
     <message>
         <source>S&amp;how program</source>
-        <translation type="unfinished"></translation>
+        <translation>Показать программу</translation>
     </message>
     <message>
         <source>Show program e&amp;xtents</source>
-        <translation type="unfinished"></translation>
+        <translation>Показать расширения программы</translation>
     </message>
     <message>
         <source>Show program r&amp;apids</source>
-        <translation type="unfinished"></translation>
+        <translation>Показать рапиды программы</translation>
     </message>
     <message>
         <source>Alpha-&amp;blend program</source>
-        <translation type="unfinished"></translation>
+        <translation>Программа альфа-смешивания</translation>
     </message>
     <message>
         <source>Sho&amp;w live plot</source>
-        <translation type="unfinished"></translation>
+        <translation>Показать график в реальном времени</translation>
     </message>
     <message>
         <source>Sho&amp;w tool</source>
-        <translation type="unfinished"></translation>
+        <translation>Показать инструмент</translation>
     </message>
     <message>
         <source>Show &amp;coordinate</source>
-        <translation type="unfinished"></translation>
+        <translation>Показать координату</translation>
     </message>
     <message>
         <source>&amp;Help</source>
-        <translation type="unfinished"></translation>
+        <translation>Помощь</translation>
     </message>
     <message>
         <source>About &amp;Cetus</source>
-        <translation type="unfinished"></translation>
+        <translation>О Cetus</translation>
     </message>
     <message>
         <source>Open file from machine...</source>
-        <translation type="unfinished"></translation>
+        <translation type="vanished">Открыть файл из машины</translation>
     </message>
     <message>
         <source>&amp;Disconnect from Session</source>
-        <translation type="unfinished"></translation>
+        <translation>Отключиться от сессии</translation>
     </message>
     <message>
         <source>Sh&amp;utdown Session</source>
-        <translation type="unfinished"></translation>
+        <translation>Прервать сессию</translation>
+    </message>
+    <message>
+        <source>E&amp;xit User Interace</source>
+        <translation type="vanished">Выйти из пользовательского интерфейса</translation>
     </message>
     <message>
         <source>E&amp;xit User Interface</source>
@@ -110,150 +114,150 @@
     <name>Cetus</name>
     <message>
         <source>DRO</source>
-        <translation type="unfinished"></translation>
+        <translation>DRO</translation>
     </message>
     <message>
         <source>Preview</source>
-        <translation type="unfinished"></translation>
+        <translation>Предпромотр</translation>
     </message>
     <message>
         <source>Webcam</source>
-        <translation type="unfinished"></translation>
+        <translation>Веб-камера</translation>
     </message>
 </context>
 <context>
     <name>ConfigurationPanel</name>
     <message>
         <source>Feed Override</source>
-        <translation type="unfinished"></translation>
+        <translation>Переподача</translation>
     </message>
     <message>
         <source>Spindle Override</source>
-        <translation type="unfinished"></translation>
+        <translation>Перерегулирование шпинделя</translation>
     </message>
     <message>
         <source>Maximum Velocity</source>
-        <translation type="unfinished"></translation>
+        <translation>Максимальная скорость</translation>
     </message>
     <message>
         <source>Rapid Override</source>
-        <translation type="unfinished"></translation>
+        <translation>Быстрое перерегулирование</translation>
     </message>
 </context>
 <context>
     <name>ConfigurationTab</name>
     <message>
         <source>Configuration</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Конфигурация</translation>
     </message>
 </context>
 <context>
     <name>DisplayPanel</name>
     <message>
         <source>Configuration</source>
-        <translation type="unfinished"></translation>
+        <translation>Конфигурация</translation>
     </message>
 </context>
 <context>
     <name>ErrorTab</name>
     <message>
         <source>Error</source>
-        <translation type="unfinished"></translation>
+        <translation>Ошибка</translation>
     </message>
 </context>
 <context>
     <name>ManualTab</name>
     <message>
         <source>Manual</source>
-        <translation type="unfinished"></translation>
+        <translation>Ручной режим</translation>
     </message>
     <message>
         <source>Axis</source>
-        <translation type="unfinished"></translation>
+        <translation>Ось</translation>
     </message>
     <message>
         <source>Jog Velocity</source>
-        <translation type="unfinished"></translation>
+        <translation>Скорость толчкового режима</translation>
     </message>
     <message>
         <source>Machine</source>
-        <translation type="unfinished"></translation>
+        <translation>Машина</translation>
     </message>
     <message>
         <source>Spindle</source>
-        <translation type="unfinished"></translation>
+        <translation>Шпиндель</translation>
     </message>
 </context>
 <context>
     <name>MdiTab</name>
     <message>
         <source>MDI</source>
-        <translation type="unfinished"></translation>
+        <translation>MDI</translation>
     </message>
     <message>
         <source>Active GCodes</source>
-        <translation type="unfinished"></translation>
+        <translation>Активные G-коды</translation>
     </message>
 </context>
 <context>
     <name>PreviewPanel</name>
     <message>
         <source>Enable preview</source>
-        <translation type="unfinished"></translation>
+        <translation>Предпросмотр</translation>
     </message>
 </context>
 <context>
     <name>PrinterTab</name>
     <message>
         <source>Printer</source>
-        <translation type="unfinished"></translation>
+        <translation>Принтер</translation>
     </message>
     <message>
         <source>E0 temperature - set to </source>
-        <translation type="unfinished"></translation>
+        <translation>Установленная температура Е0</translation>
     </message>
     <message>
         <source>On</source>
-        <translation type="unfinished"></translation>
+        <translation>Вкл</translation>
     </message>
     <message>
         <source>Off</source>
-        <translation type="unfinished"></translation>
+        <translation>Выкл</translation>
     </message>
     <message>
         <source>Bed temperature - set to </source>
-        <translation type="unfinished"></translation>
+        <translation>Установленная температура подложки</translation>
     </message>
     <message>
         <source>Fan speed</source>
-        <translation type="unfinished"></translation>
+        <translation>Скорость вентилятора</translation>
     </message>
     <message>
         <source>Remove Filament</source>
-        <translation type="unfinished"></translation>
+        <translation>Сброс заполнителя</translation>
     </message>
     <message>
         <source>Insert Filament</source>
-        <translation type="unfinished"></translation>
+        <translation>Вставка заполнителя</translation>
     </message>
     <message>
         <source>Calibrate</source>
-        <translation type="unfinished"></translation>
+        <translation>Калибровка</translation>
     </message>
     <message>
         <source>Probe</source>
-        <translation type="unfinished"></translation>
+        <translation>Зонд</translation>
     </message>
 </context>
 <context>
     <name>WebcamPanel</name>
     <message>
         <source>No webcam connected.</source>
-        <translation type="unfinished"></translation>
+        <translation>Веб-камера не обнаружена</translation>
     </message>
     <message>
         <source>Turn on the switch.</source>
-        <translation type="unfinished"></translation>
+        <translation>Включите переключатель</translation>
     </message>
 </context>
 </TS>

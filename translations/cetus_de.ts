@@ -100,7 +100,7 @@
     </message>
     <message>
         <source>Open file from machine...</source>
-        <translation>Öffnen von Maschine...</translation>
+        <translation type="vanished">Öffnen von Maschine...</translation>
     </message>
     <message>
         <source>&amp;Disconnect from Session</source>
