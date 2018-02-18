@@ -25,9 +25,6 @@ Item {
         Binding {
             target: pathView; property: "viewMode"; value: pathViewConfig.viewMode
         }
-        Binding {
-            target: pathViewConfig; property: "viewMode"; value: pathView.viewMode
-        }
 
         Rectangle {
             id: droRect

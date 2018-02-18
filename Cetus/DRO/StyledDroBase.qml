@@ -23,11 +23,25 @@ AbstractDigitalReadOut {
             for (var i = 0; i < root.axes; ++i) {
                 var item = {};
                 item.name = root.axisNames[i];
-                item.value = Number(root.position[root._axisNames[i]])
-                var homed = (i < root.axisHomed.length) && root.axisHomed[i].homed;
+                item.value = Number(root.position[root._axisNames[i]]);
+                var homed = (i < root.axisHomed.length) && root.axisHomed[root._axisIndices[i]].homed;
                 item.color = homed ? "lightgreen" : "#FF4444";
                 item.secondValue = Number(root.dtg[root._axisNames[i]]);
                 list.push(item);
+            }
+
+            if (root.lathe) {
+                item = list[0];
+                item.name = qsTr("Rad");
+                item.value = Number(root.position['x']);
+                var homed = root.axisHomed[0].homed;
+                item.color = homed ? "lightgreen" : "#FF4444";
+                item.secondValue = Number(root.dtg['x']);
+                item = Object.assign({}, item);
+                item.name = qsTr("Dia");
+                item.value = Number(root.position['x']) * 2.0;
+                item.secondValue = Number(root.dtg['x']) * 2.0;
+                list.splice(1, 0, item);
             }
 
             return list;
