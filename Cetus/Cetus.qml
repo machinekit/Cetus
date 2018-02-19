@@ -50,10 +50,10 @@ ServiceWindow {
         id: pathViewCore
     }
 
-    Item {
+    ApplicationItem {
         id: pathViewConfig
         property double cameraZoom: 0.95
-        property string viewMode: "Perspective"
+        property string viewMode: status.synced && status.config.lathe ? "Lathe" : "Perspective"
     }
 
     SourceView {

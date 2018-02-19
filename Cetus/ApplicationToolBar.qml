@@ -28,11 +28,11 @@ ToolBar {
         ToolButton { action: ZoomOutAction { view: pathViewConfig } }
         ToolButton { action: ZoomInAction { view: pathViewConfig } }
         ToolButton { action: ZoomOriginalAction { view: pathViewConfig } }
-        ToolButton { action: ViewModeAction { view: pathViewConfig; viewMode: "Top" } }
-        ToolButton { action: ViewModeAction { view: pathViewConfig; viewMode: "RotatedTop" } }
-        ToolButton { action: ViewModeAction { view: pathViewConfig; viewMode: "Front" } }
-        ToolButton { action: ViewModeAction { view: pathViewConfig; viewMode: "Side" } }
-        ToolButton { action: ViewModeAction { view: pathViewConfig; viewMode: "Perspective" } }
+        ToolButton { action: ViewModeAction { view: pathViewConfig; viewMode: "Top" } visible: action.visible }
+        ToolButton { action: ViewModeAction { view: pathViewConfig; viewMode: "RotatedTop" } visible: action.visible }
+        ToolButton { action: ViewModeAction { view: pathViewConfig; viewMode: "Front" } visible: action.visible }
+        ToolButton { action: ViewModeAction { view: pathViewConfig; viewMode: "Side" } visible: action.visible }
+        ToolButton { action: ViewModeAction { view: pathViewConfig; viewMode: "Perspective" } visible: action.visible }
         Spacer {}
         ToolButton { action: ClearBackplotAction { shortcut: "" } }
     }
