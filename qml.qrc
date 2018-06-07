@@ -5,9 +5,7 @@
         <file>Cetus/description.ini</file>
         <file>Cetus/ApplicationMenuBar.qml</file>
         <file>Cetus/ApplicationToolBar.qml</file>
-        <file>Cetus/ConfigurationPanel.qml</file>
         <file>Cetus/DisplayPanel.qml</file>
-        <file>Cetus/ManualTab.qml</file>
         <file>Cetus/MdiTab.qml</file>
         <file>Cetus/ToggleSettingAction.qml</file>
         <file>Cetus/PrinterTab.qml</file>
@@ -31,6 +29,15 @@
         <file>Cetus/StatusBar/ToolStatusLabel.qml</file>
         <file>Cetus/StatusBar/PositionOffsetLabel.qml</file>
         <file>Cetus/Controls/Spacer.qml</file>
-        <file>Cetus/KeyboardJogControl.qml</file>
+        <file>Cetus/ManualTab/SpindleControls.qml</file>
+        <file>Cetus/ManualTab/CoolantControls.qml</file>
+        <file>Cetus/ManualTab/KeyboardJogControl.qml</file>
+        <file>Cetus/ManualTab/ManualTab.qml</file>
+        <file>Cetus/ManualTab/AxisControls.qml</file>
+        <file>Cetus/ConfigurationPanel/ConfigurationPanel.qml</file>
+        <file>Cetus/ConfigurationPanel/FeedrateControl.qml</file>
+        <file>Cetus/ConfigurationPanel/RapidrateControl.qml</file>
+        <file>Cetus/ConfigurationPanel/SpindlerateControl.qml</file>
+        <file>Cetus/ConfigurationPanel/MaximumVelocityControl.qml</file>
     </qresource>
 </RCC>

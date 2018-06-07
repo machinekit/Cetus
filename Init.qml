@@ -8,7 +8,7 @@ ConnectionWindow {
     width: 1200
     height: 1000
     defaultTitle: "Cetus"
-    autoSelectInstance: true
+    autoSelectInstance: false
     autoSelectApplication: true
     remoteVisible: false
     localVisible: true

@@ -10,6 +10,8 @@ import Machinekit.Application.Controls 1.0
 import Machinekit.PathView 1.0
 import Machinekit.VideoView 1.0
 import "./StatusBar"
+import "./ManualTab"
+import "./ConfigurationPanel"
 
 ServiceWindow {
     id: window
@@ -29,6 +31,7 @@ ServiceWindow {
 
     ApplicationStatusBar { id: applicationStatusBar }
     ApplicationMenuBar { id: applicationMenuBar }
+
     Loader {
         id: applicationToolBar
         source: "ApplicationToolBar.qml"
