@@ -8,6 +8,12 @@ SOURCES += main.cpp
 RESOURCES += qml.qrc
 
 QML_FILES = $$PWD/$$NAME/*.qml
+QML_FILES += $$PWD/$$NAME/ConfigurationPanel/*.qml
+QML_FILES += $$PWD/$$NAME/Controls/*.qml
+QML_FILES += $$PWD/$$NAME/DRO/*.qml
+QML_FILES += $$PWD/$$NAME/ManualTab/*.qml
+QML_FILES += $$PWD/$$NAME/Singletons/*.qml
+QML_FILES += $$PWD/$$NAME/StatusBar/*.qml
 OTHER_FILES += $$QML_FILES
 
 # Additional import path used to resolve QML modules in Qt Creator's code model
@@ -27,3 +33,6 @@ android: {
 TRANSLATIONS_PATH = $$PWD/translations
 TRANSLATIONS_OUT_PATH = $$PWD/$$NAME/translations
 include(translation.pri)
+
+DISTFILES += \
+    Cetus/CoolantControls.qml
