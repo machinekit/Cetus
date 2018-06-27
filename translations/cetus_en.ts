@@ -103,6 +103,17 @@
     </message>
 </context>
 <context>
+    <name>AxisControls</name>
+    <message>
+        <source>Axis</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Jog Velocity</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>Cetus</name>
     <message>
         <source>DRO</source>
@@ -118,28 +129,9 @@
     </message>
 </context>
 <context>
-    <name>ConfigurationPanel</name>
+    <name>CoolantControls</name>
     <message>
-        <source>Feed Override</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Spindle Override</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Maximum Velocity</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Rapid Override</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>ConfigurationTab</name>
-    <message>
-        <source>Configuration</source>
+        <source>Coolant</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -158,25 +150,42 @@
     </message>
 </context>
 <context>
+    <name>FeedrateControl</name>
+    <message>
+        <source>Feed Override</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>MachineStatusLabel</name>
+    <message>
+        <source>ESTOP</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>OFF</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>ON</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Not connected</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>ManualTab</name>
     <message>
         <source>Manual</source>
         <translation type="unfinished"></translation>
     </message>
+</context>
+<context>
+    <name>MaximumVelocityControl</name>
     <message>
-        <source>Axis</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Jog Velocity</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Machine</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Spindle</source>
+        <source>Maximum Velocity</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -188,6 +197,21 @@
     </message>
     <message>
         <source>Active GCodes</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>PositionOffsetLabel</name>
+    <message>
+        <source>Position: </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Relative Actual</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Machine Actual</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -238,6 +262,85 @@
     </message>
     <message>
         <source>Probe</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>RapidrateControl</name>
+    <message>
+        <source>Rapid Override</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>SpindleControls</name>
+    <message>
+        <source>Spindle</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>SpindlerateControl</name>
+    <message>
+        <source>Spindle Override</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>StyledDroBase</name>
+    <message>
+        <source>DRO</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Position</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Distance to Go</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Rad</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Dia</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Extra</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Vel</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>DTG</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%1 Offsets</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>G92 Offsets</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Tool Offsets</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>ToolStatusLabel</name>
+    <message>
+        <source>Tool %1, offset: %2, diameter: %3</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No Tool</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

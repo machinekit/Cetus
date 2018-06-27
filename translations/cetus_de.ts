@@ -104,15 +104,15 @@
     </message>
     <message>
         <source>&amp;Disconnect from Session</source>
-        <translation type="unfinished"></translation>
+        <translation>Von Sitzung &amp;trennen</translation>
     </message>
     <message>
         <source>Sh&amp;utdown Session</source>
-        <translation type="unfinished"></translation>
+        <translation>Sitz&amp;ung beenden</translation>
     </message>
     <message>
         <source>E&amp;xit User Interface</source>
-        <translation type="unfinished"></translation>
+        <translation>Benuzteroberfläche schli&amp;eßen</translation>
     </message>
 </context>
 <context>
@@ -143,6 +143,17 @@
     </message>
 </context>
 <context>
+    <name>AxisControls</name>
+    <message>
+        <source>Axis</source>
+        <translation>Achse</translation>
+    </message>
+    <message>
+        <source>Jog Velocity</source>
+        <translation>Verfahrgeschwindigkeit</translation>
+    </message>
+</context>
+<context>
     <name>Cetus</name>
     <message>
         <source>DRO</source>
@@ -161,26 +172,29 @@
     <name>ConfigurationPanel</name>
     <message>
         <source>Feed Override</source>
-        <translation>Vorschubgeschwindigkeit</translation>
+        <translation type="vanished">Vorschubgeschwindigkeit</translation>
     </message>
     <message>
         <source>Spindle Override</source>
-        <translation>Spindelgeschwindigkeit</translation>
+        <translation type="vanished">Spindelgeschwindigkeit</translation>
     </message>
     <message>
         <source>Maximum Velocity</source>
-        <translation>Maximalgeschwindigkeit</translation>
-    </message>
-    <message>
-        <source>Rapid Override</source>
-        <translation type="unfinished"></translation>
+        <translation type="vanished">Maximalgeschwindigkeit</translation>
     </message>
 </context>
 <context>
     <name>ConfigurationTab</name>
     <message>
         <source>Configuration</source>
-        <translation type="unfinished">Konfiguration</translation>
+        <translation type="obsolete">Konfiguration</translation>
+    </message>
+</context>
+<context>
+    <name>CoolantControls</name>
+    <message>
+        <source>Coolant</source>
+        <translation>Kühlmittel</translation>
     </message>
 </context>
 <context>
@@ -213,6 +227,32 @@
     </message>
 </context>
 <context>
+    <name>FeedrateControl</name>
+    <message>
+        <source>Feed Override</source>
+        <translation>Vorschubgeschwindigkeit</translation>
+    </message>
+</context>
+<context>
+    <name>MachineStatusLabel</name>
+    <message>
+        <source>ESTOP</source>
+        <translation>ESTOP</translation>
+    </message>
+    <message>
+        <source>OFF</source>
+        <translation>OFF</translation>
+    </message>
+    <message>
+        <source>ON</source>
+        <translation>ON</translation>
+    </message>
+    <message>
+        <source>Not connected</source>
+        <translation>Nicht verbunden</translation>
+    </message>
+</context>
+<context>
     <name>ManualTab</name>
     <message>
         <source>Manual</source>
@@ -220,19 +260,26 @@
     </message>
     <message>
         <source>Axis</source>
-        <translation>Achse</translation>
+        <translation type="vanished">Achse</translation>
     </message>
     <message>
         <source>Jog Velocity</source>
-        <translation>Jog Geschwindigkeit</translation>
+        <translation type="vanished">Jog Geschwindigkeit</translation>
     </message>
     <message>
         <source>Machine</source>
-        <translation>Maschine</translation>
+        <translation type="vanished">Maschine</translation>
     </message>
     <message>
         <source>Spindle</source>
-        <translation>Spindel</translation>
+        <translation type="vanished">Spindel</translation>
+    </message>
+</context>
+<context>
+    <name>MaximumVelocityControl</name>
+    <message>
+        <source>Maximum Velocity</source>
+        <translation>Maximalgeschwindigkeit</translation>
     </message>
 </context>
 <context>
@@ -244,6 +291,21 @@
     <message>
         <source>Active GCodes</source>
         <translation>Aktive GCodes</translation>
+    </message>
+</context>
+<context>
+    <name>PositionOffsetLabel</name>
+    <message>
+        <source>Position: </source>
+        <translation>Position: </translation>
+    </message>
+    <message>
+        <source>Relative Actual</source>
+        <translation>Relativ Aktual</translation>
+    </message>
+    <message>
+        <source>Machine Actual</source>
+        <translation>Maschine Aktual</translation>
     </message>
 </context>
 <context>
@@ -261,7 +323,7 @@
     </message>
     <message>
         <source>E0 temperature - set to </source>
-        <translation>E0 Temperatur</translation>
+        <translation>E0 Temperatur - zu </translation>
     </message>
     <message>
         <source>On</source>
@@ -273,7 +335,7 @@
     </message>
     <message>
         <source>Bed temperature - set to </source>
-        <translation>Heizbett Temperatur</translation>
+        <translation>Heizbett Temperatur - zu </translation>
     </message>
     <message>
         <source>Fan speed</source>
@@ -297,10 +359,89 @@
     </message>
 </context>
 <context>
+    <name>RapidrateControl</name>
+    <message>
+        <source>Rapid Override</source>
+        <translation>Rapide Vorschubgeschwindigkeit</translation>
+    </message>
+</context>
+<context>
+    <name>SpindleControls</name>
+    <message>
+        <source>Spindle</source>
+        <translation>Spindel</translation>
+    </message>
+</context>
+<context>
+    <name>SpindlerateControl</name>
+    <message>
+        <source>Spindle Override</source>
+        <translation>Spindelgeschwindigkeit</translation>
+    </message>
+</context>
+<context>
+    <name>StyledDroBase</name>
+    <message>
+        <source>DRO</source>
+        <translation>Digitale Anzeige</translation>
+    </message>
+    <message>
+        <source>Position</source>
+        <translation>Position</translation>
+    </message>
+    <message>
+        <source>Distance to Go</source>
+        <translation>Verbleibende Strecke</translation>
+    </message>
+    <message>
+        <source>Rad</source>
+        <translation>Rad</translation>
+    </message>
+    <message>
+        <source>Dia</source>
+        <translation>Dm</translation>
+    </message>
+    <message>
+        <source>Extra</source>
+        <translation>Extra</translation>
+    </message>
+    <message>
+        <source>Vel</source>
+        <translation>Geschw</translation>
+    </message>
+    <message>
+        <source>DTG</source>
+        <translation>DTG</translation>
+    </message>
+    <message>
+        <source>%1 Offsets</source>
+        <translation>%1 Versatz</translation>
+    </message>
+    <message>
+        <source>G92 Offsets</source>
+        <translation>G92 Versatz</translation>
+    </message>
+    <message>
+        <source>Tool Offsets</source>
+        <translation>Wekzeug Versatz</translation>
+    </message>
+</context>
+<context>
     <name>ToggleSettingAction</name>
     <message>
         <source>Group Value</source>
         <translation type="vanished">Gruppenwert</translation>
+    </message>
+</context>
+<context>
+    <name>ToolStatusLabel</name>
+    <message>
+        <source>Tool %1, offset: %2, diameter: %3</source>
+        <translation>Werkzeug %1, Versatz: %2, Durchmesser: %3</translation>
+    </message>
+    <message>
+        <source>No Tool</source>
+        <translation>Kein Werkzeug</translation>
     </message>
 </context>
 <context>
