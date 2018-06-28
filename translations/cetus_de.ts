@@ -112,7 +112,7 @@
     </message>
     <message>
         <source>E&amp;xit User Interface</source>
-        <translation>Benuzteroberfläche schli&amp;eßen</translation>
+        <translation>Benutzeroberfläche schli&amp;eßen</translation>
     </message>
 </context>
 <context>
