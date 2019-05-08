@@ -43,6 +43,16 @@ ServiceWindow {
         active: (Qt.platform.os == "android")
     }
 
+    Service {
+        id: halrcompService
+        type: "halrcomp"
+    }
+
+    Service {
+        id: halrcmdService
+        type: "halrcmd"
+    }
+
     ApplicationCore {
         id: applicationCore
         notifications: applicationNotifications

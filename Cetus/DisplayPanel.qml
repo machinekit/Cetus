@@ -12,13 +12,11 @@ TabView {
     width: 100
     height: 62
 
-    /*PrinterTab {}
-    ErrorTab {}*/
     Tab {
         title: qsTr("Configuration")
         active: true
 
-        Item {
+       Item {
             ConfigurationPanel {
                 anchors.fill: parent
             }
