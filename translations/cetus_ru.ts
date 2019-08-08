@@ -102,6 +102,10 @@
         <source>E&amp;xit User Interface</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Show &amp;spindle speed</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>ApplicationStatusBar</name>
@@ -188,6 +192,17 @@
     <message>
         <source>Feed Override</source>
         <translation type="unfinished">Переподача</translation>
+    </message>
+</context>
+<context>
+    <name>GantryConfigControl</name>
+    <message>
+        <source>Left offset:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Right offset:</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -380,6 +395,10 @@
     </message>
     <message>
         <source>Tool Offsets</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>S%1</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
