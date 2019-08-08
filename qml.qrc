@@ -39,5 +39,6 @@
         <file>Cetus/ConfigurationPanel/RapidrateControl.qml</file>
         <file>Cetus/ConfigurationPanel/SpindlerateControl.qml</file>
         <file>Cetus/ConfigurationPanel/MaximumVelocityControl.qml</file>
+        <file>Cetus/ConfigurationPanel/GantryConfigControl.qml</file>
     </qresource>
 </RCC>
