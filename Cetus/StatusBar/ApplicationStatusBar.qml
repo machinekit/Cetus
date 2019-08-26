@@ -10,19 +10,34 @@ StatusBar {
     RowLayout {
         anchors.fill: parent
 
-        MachineStatusLabel {}
+        MachineStatusLabel {
+            Layout.fillHeight: true
+            Layout.minimumWidth: parent.width * 0.15
+        }
+
         Spacer {}
-        ToolStatusLabel {}
+
+        ToolStatusLabel {
+            Layout.fillHeight: true
+            Layout.minimumWidth: parent.width * 0.2
+        }
+
         Spacer {}
-        PositionOffsetLabel {}
+
+        PositionOffsetLabel {
+            Layout.fillHeight: true
+            Layout.minimumWidth: parent.width * 0.15
+        }
+
         Spacer {}
+
         Item { Layout.fillWidth: true }
 
         Spacer {}
-        ApplicationProgressBar {
+
+        FileNameLabel {
             Layout.fillHeight: true
-            Layout.preferredWidth: parent.width * 0.3
-            anchors.margins: 5
+            Layout.minimumWidth: parent.width * 0.15
         }
     }
 }

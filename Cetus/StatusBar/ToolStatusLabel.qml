@@ -4,8 +4,7 @@ import QtQuick.Layouts 1.1
 import Machinekit.Application 1.0
 
 Label {
-    Layout.fillHeight: true
-    Layout.minimumWidth: parent.width * 0.2
+    id: root
     verticalAlignment: Text.AlignVCenter
     text: d.valid ? qsTr("Tool %1, offset: %2, diameter: %3")
                     .arg(d.toolId)
