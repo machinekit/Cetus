@@ -80,6 +80,7 @@ MenuBar {
         MenuItem { action: showOffsetsAction }
         MenuItem { action: showVelocityAction }
         MenuItem { action: showDistanceToGoAction }
+        MenuItem { action: showSpindleSpeedAction }
 
         ToggleSettingAction {
             id: showOffsetsAction
@@ -100,6 +101,13 @@ MenuBar {
             groupName: "dro"
             valueName: "showDistanceToGo"
             text: qsTr("Show &distance to go")
+        }
+
+        ToggleSettingAction {
+            id: showSpindleSpeedAction
+            groupName: "dro"
+            valueName: "showSpindleSpeed"
+            text: qsTr("Show &spindle speed")
         }
 
         ToggleSettingAction {

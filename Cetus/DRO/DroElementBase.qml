@@ -40,7 +40,7 @@ Item {
         Text {
             id: axisTitleText
             anchors.centerIn: parent
-            font.pixelSize: text.length < 3 ? 50 : 35
+            font.pixelSize: text.length == 1 ? 50 : 33
             text: root.axisName
         }
     }

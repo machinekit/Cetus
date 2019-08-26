@@ -80,6 +80,15 @@ AbstractDigitalReadOut {
                 list.push(item);
             }
 
+            if (root.spindleSpeedVisible) {
+                item = {};
+                item.name = qsTr("S%1").arg(root.spindleDirection === 1 ? "⟳" : (root.spindleDirection === -1 ? "⟲" : ""));
+                item.color = "lightyellow";
+                item.value = root.spindleSpeed;
+                item.secondValue = 0.0;
+                list.push(item);
+            }
+
             return list;
         }
     }
